@@ -2,7 +2,7 @@ import asyncio
 from hashlib import md5
 
 HOST = 'localhost'
-PORT = 9069
+PORT = 9050
 History = "History.txt"
 
 async def auth(writer, reader, name):

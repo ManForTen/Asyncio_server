@@ -1,7 +1,7 @@
 import asyncio
 
 HOST = 'localhost'
-PORT = 9069
+PORT = 9050
 
 async def tcp_echo_client(host, port):
     reader, writer = await asyncio.open_connection(host, port)
